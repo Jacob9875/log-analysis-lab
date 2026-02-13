@@ -93,9 +93,13 @@ large file transfer
 lines 65-69
 
 2023-02-17 09:38:24 192.168.1.72 111.221.29.254 TCP 443 Deny 0
+
 2023-02-17 09:38:31 192.168.1.72 111.221.29.254 TCP 443 Deny 0
+
 2023-02-17 09:38:39 192.168.1.72 111.221.29.254 TCP 443 Deny 0
+
 2023-02-17 09:38:46 192.168.1.72 111.221.29.254 TCP 443 Deny 0
+
 2023-02-17 09:38:53 192.168.1.72 111.221.29.254 TCP 443 Deny 0
 
 **Description of log entries:** multiple attempts all denied 
@@ -161,8 +165,11 @@ line 31
 lines 46-49
 
 2023-02-17 09:37:04 192.168.1.229 239.255.255.250 UDP 443 Allow 6273
+
 2023-02-17 09:37:07 192.168.1.229 239.255.255.250 UDP 443 Allow 6273
+
 2023-02-17 09:37:09 192.168.1.229 255.255.255.255 UDP 443 Allow 6273
+
 2023-02-17 09:37:14 192.168.1.229 192.168.1.255 UDP 443 Allow 6273  
 
 **Description of log entries:** multiple attempts at fast interval and large transfers of the same and using UDP over 443
@@ -196,7 +203,9 @@ line 25
 lines 71-73
 
 2023-02-17 09:39:03 192.168.1.19 40.94.31.197 TCP 1433 Allow 37419
+
 2023-02-17 09:39:08 192.168.1.19 40.94.25.38 TCP 1433 Allow 32780
+
 2023-02-17 09:39:11 192.168.1.19 40.94.28.182 TCP 1433 Allow 41935
 
 **Description of log entries:** outbound to Microst SQL
