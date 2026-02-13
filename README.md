@@ -4,8 +4,8 @@
 
 line 16
 
-'''2023-02-17 09:34:50 fdf8:f53b:82e4::53 fdf8:f53b:82e4:0:1652:14ff:fe0b:b71c TCP 22 Deny 0
-'''
+2023-02-17 09:34:50 fdf8:f53b:82e4::53 fdf8:f53b:82e4:0:1652:14ff:fe0b:b71c TCP 22 Deny 0
+
 **Description of log entries:** IPv6 host trying SSH, blocked
 
 **Reason for concern:** Strange because internal IPv6 traffic usually isn’t connecting to itself over SSH
