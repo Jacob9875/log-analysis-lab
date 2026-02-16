@@ -38,7 +38,14 @@ line 27
 
 2023-02-17 09:35:36 192.168.1.163 13.107.246.57 TCP 443 Allow 73240
 
-large bytes transfer
+**Description of log entries:** large bytes transfer
+
+**Reason for concern:** very large data transfer
+
+**Potential impact:** could indicate data exfiltration
+
+**Possible explanations:**legitimate service
+
 
 ## issue 4 ##
 
@@ -48,7 +55,14 @@ line 51
 
 2023-02-17 09:37:17 192.168.1.150 162.159.134.234 TCP 443 Allow 70136
 
-large bytes transfer
+
+**Description of log entries:** large bytes transfer
+
+**Reason for concern:** very large data transfer
+
+**Potential impact:** could indicate data exfiltration
+
+**Possible explanations:**legitimate service
 
 ## issue 5 ##
 
@@ -59,6 +73,14 @@ line 53
 2023-02-17 09:37:27 192.168.1.150 162.159.130.233 TCP 443 Allow 72643 
 
 large bytes transfer
+
+**Description of log entries:** large bytes transfer
+
+**Reason for concern:** very large data transfer
+
+**Potential impact:** could indicate data exfiltration
+
+**Possible explanations:**legitimate service
 
 ## issue 6 ##
 
@@ -84,7 +106,13 @@ line 6
 
 2023-02-17 09:34:09 127.0.0.1 127.0.0.1 TCP 3000 Allow 57289
 
-large file transfer
+**Description of log entries:** large bytes transfer
+
+**Reason for concern:** very large data transfer
+
+**Potential impact:** could indicate data exfiltration
+
+**Possible explanations:**legitimate service
 
 ## issue 8 ##
 
@@ -215,4 +243,36 @@ lines 71-73
 **Potential impact:** potential data exfiltration
 
 **Possible explanations:** misconfigured application
+
+## issue 15 ##
+
+**Log Entries:**
+
+line 4
+
+2023-02-17 09:34:01 192.168.1.211 62.128.197.131 UDP 51820 Allow 14
+
+**Description of log entries:** unauthorized VPN
+
+**Reason for concern:** covert tunnel possibility
+
+**Potential impact:**  potential data exfiltration
+
+**Possible explanations:** malware
+
+## issue 16 ## 
+
+**Log Entries:**
+
+line 7 
+
+2023-02-17 09:34:14 192.168.1.49 216.109.119.63 TCP 25 Allow 7421
+
+**Description of log entries:** SMTP relay
+
+**Reason for concern:** Potential rogue process / suspicious port activity
+
+**Potential impact:**  botnet activity / data exfiltration
+
+**Possible explanations:** Malware
 
